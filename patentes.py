@@ -149,6 +149,7 @@ print colored(" Marca: ","blue", attrs=["bold"]) + datos['marca']
 print colored(" Modelo: ","blue", attrs=["bold"]) + datos['modelo']
 print colored(" Año: ","blue", attrs=["bold"]) + str(datos['ano'])
 print colored(" N° Motor: ","blue", attrs=["bold"]) + str(datos['vin'])
+print colored(" DV patente: ","blue", attrs=["bold"]) + str(datos['dvpatente'])
 
 
 # 
