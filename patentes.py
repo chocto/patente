@@ -156,7 +156,7 @@ print colored(" DV patente: ","blue", attrs=["bold"]) + str(datos['dvpatente'])
 # Datos del dueño
 # 
 print colored("+--------- Datos del Dueño -------+", "green", attrs=["bold"])
-print colored(" Nombre: ","blue", attrs=["bold"]) + datos['propietario']['nombre']
+print colored(" Nombre: ","blue", attrs=["bold"]) + datos['propietario']['nombre'] + " " + datos['propietario']['ap_paterno'] + " " + datos['propietario']['ap_materno']
 print colored(" RUT: ","blue", attrs=["bold"]) + datos['propietario']['rut'] +"-" + datos['propietario']['dv']
 
 
